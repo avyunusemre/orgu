@@ -85,25 +85,21 @@ p {
 
 /* Footer'ı Sabit Tutma */
 footer {
-    position: sticky;
-    bottom: 0;
     background-color: #4158D0;
     background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
     color: #fff;
     text-align: center;
-    padding: 10px 0;
-    z-index: 100; /* Diğer öğelerin üzerinde olması için z-index ekledik */
+    padding: 5px 0;
 }
 
 
 .social-media {
-    margin-top: 20px;
     text-align: center;
 }
 
 .social-media a {
-    font-size: 24px; /* Ikon boyutu */
-    color: #007bff; /* Ikon rengi */
+    font-size: 36px; /* Ikon boyutu */
+    color: #f2f2f2; /* Ikon rengi */
     margin-right: 10px; /* Ikonlar arasındaki boşluk */
     text-decoration: none; /* Bağlantı alt çizgisi kaldırma */
 }
