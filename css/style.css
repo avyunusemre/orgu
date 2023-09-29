@@ -1,0 +1,122 @@
+/* Genel Stil */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    background-color: #444;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ff6600;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Ana Sayfa Stili */
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Ürünler Sayfa Stili */
+.slider {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Fotoğraflar arası boşluk */
+}
+
+.slider-item {
+    text-align: center;
+    flex: 1 0 calc(25% - 25px); /* Bir satırda üç fotoğraf, aralarında 25px boşluk */
+    padding: 20px;
+    border: 2px solid #ddd; /* Çerçeve eklemek için kenarlık */
+    background-color: #fff; /* Çerçeve rengi */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Hafif bir gölge ekler */
+}
+
+.slider img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Footer'ı Sabit Tutma */
+footer {
+    position: sticky;
+    bottom: 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 100; /* Diğer öğelerin üzerinde olması için z-index ekledik */
+}
+
+
+.social-media {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-media a {
+    font-size: 24px; /* Ikon boyutu */
+    color: #007bff; /* Ikon rengi */
+    margin-right: 10px; /* Ikonlar arasındaki boşluk */
+    text-decoration: none; /* Bağlantı alt çizgisi kaldırma */
+}
+
+.social-media a:hover {
+    color: #ff6600; /* İkon rengini hover durumunda değiştirme */
+}
+
+h2 {
+    color: #444;
+}
+
+.product-name {
+    font-size: 16px; /* Ürün adı font boyutu */
+    margin: 5px; /* Ürün adı ile resim arasındaki boşluk */
+}
