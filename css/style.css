@@ -9,31 +9,36 @@ body {
 header {
     background-color: #4158D0;
     background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    flex-shrink: 0;
+    justify-content: space-around;
+    color: aliceblue;
+    padding: 30px;
 }
 
 nav {
-    background-color: #1533d1;
-    background-image: linear-gradient(43deg, #1533d1 0%, #b917ae 46%, #eca119 100%);    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav ul {
-    list-style: none;
     padding: 0;
     margin: 0;
     text-align: center;
 }
 
 nav ul li {
+    list-style: none;
     display: inline;
     margin-right: 20px;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color: aliceblue;
     font-weight: bold;
     font-size: 18px;
 }
@@ -68,14 +73,13 @@ p {
     text-align: center;
     flex: 1 0 calc(25% - 25px); /* Bir satırda üç fotoğraf, aralarında 25px boşluk */
     padding: 20px;
-    border: 2px solid #ddd; /* Çerçeve eklemek için kenarlık */
-    background-color: #fff; /* Çerçeve rengi */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Hafif bir gölge ekler */
 }
 
 .slider img {
-    max-width: 100%;
-    height: auto;
+    border: 2px solid #ddd; /* Çerçeve eklemek için kenarlık */
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Hafif bir gölge ekler */
 }
 
 
@@ -113,6 +117,7 @@ h2 {
 }
 
 .product-name {
+    display: block;
     font-size: 16px; /* Ürün adı font boyutu */
     margin: 5px; /* Ürün adı ile resim arasındaki boşluk */
 }
